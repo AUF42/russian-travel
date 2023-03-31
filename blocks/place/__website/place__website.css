@@ -1,0 +1,12 @@
+.place__website {
+    width: 100%;
+    align-self: center;
+}
+
+@media screen and (max-width:320px) {
+    .place__website {
+        max-width: 288px;
+        align-self: center;
+        margin-left: 16px;
+    }
+}
