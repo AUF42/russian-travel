@@ -5,18 +5,21 @@
     max-width: 1184px;
     justify-items: center;
     gap: 16px;
+    width: 100%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        max-width: 928px;
+        width: 100%;
         gap: 14px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 1023px) {
     .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        width: 100%;
         gap: 16px;
     }
 }
@@ -24,6 +27,6 @@
 @media screen and (max-width: 320px) {
     .photo-grid {
         gap:12px;
-        max-width: 288px;
+        width: 100%;
     }
 }

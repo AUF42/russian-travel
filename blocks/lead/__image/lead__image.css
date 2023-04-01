@@ -7,20 +7,20 @@
 @media screen and (max-width: 1024px) {
     .lead__image {
         margin-top: 56px;
-        max-width: 928px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
         margin: 56px 0 8px 0;
-        max-width: 100%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
         margin: 40px 0 8px 0;
-        max-width: 100%;
+        width: 100%;
     }
 }
